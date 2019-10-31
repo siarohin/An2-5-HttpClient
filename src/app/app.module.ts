@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { Router } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 // add this line if you don't have access to
 // index.html and you want to set base tag
@@ -22,7 +23,8 @@ import { AppComponent } from './app.component';
     LayoutModule,
     TasksModule,
     SpinnerModule.forRoot(),
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [
     // add this line if you don't have access to
