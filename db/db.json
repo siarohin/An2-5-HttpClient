@@ -1,15 +1,8 @@
 {
   "tasks": [
     {
-      "id": 5,
-      "action": "Build",
-      "priority": 1,
-      "estHours": 4,
-      "done": true
-    },
-    {
       "id": 6,
-      "action": "Deploy",
+      "action": "Deploy1",
       "priority": 2,
       "estHours": 8
     },

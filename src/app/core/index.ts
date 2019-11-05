@@ -1,5 +1,6 @@
 export * from './guards/auth.guard';
 export * from './guards/can-deactivate.guard';
+export * from './decorators';
 
 export * from './interfaces/can-component-deactivate.interface';
 

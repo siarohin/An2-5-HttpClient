@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { Router } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 
+import { httpInterceptorProviders } from './core/interceptors';
+
 // add this line if you don't have access to
 // index.html and you want to set base tag
 // import { APP_BASE_HREF } from '@angular/common';
@@ -27,6 +29,7 @@ import { AppComponent } from './app.component';
     HttpClientModule
   ],
   providers: [
+    httpInterceptorProviders
     // add this line if you don't have access to
     // index.html and you want to set base tag
     // { provide: APP_BASE_HREF, useValue: '/' }
